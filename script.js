@@ -1,4 +1,4 @@
-const API_KEY = 'xBN7p1EdBTW4M0V7zTyXAF1gtmZ7Osu5EyWWkIEN'; // Replace if needed
+const API_KEY = 'DEMO_KEY'; // Replace if needed
 
 // Tabs
 document.querySelectorAll('.tab-btn').forEach(button => {
