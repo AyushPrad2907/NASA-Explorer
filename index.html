@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NASA Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 NASA Explorer</h1>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="apod">📸 Image of the Day</button>
+    <button class="tab-btn" data-tab="asteroids">☄️ Asteroids</button>
+    <button class="tab-btn" data-tab="mars">🚘 Mars Rover</button>
+  </div>
+
+  <div class="tab-content active" id="apod">
+    <h2>📸 Image of the Day</h2>
+    <img id="apod-img" src="" alt="NASA APOD">
+    <p id="apod-desc"></p>
+  </div>
+
+  <div class="tab-content" id="asteroids">
+    <h2>☄️ Asteroids Near Earth</h2>
+    <ul id="asteroid-list"></ul>
+  </div>
+
+  <div class="tab-content" id="mars">
+    <h2>🚘 Mars Rover Photos</h2>
+    <input type="date" id="mars-date">
+    <button onclick="fetchMarsPhotos()">Get Photos</button>
+    <div id="mars-photos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
