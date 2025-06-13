@@ -15,7 +15,7 @@ Explore the wonders of space with NASA APIs — Image of the Day, Near-Earth Ast
 
 ## 📁 Live Demo
 
-🔗 [View Live on GitHub Pages](https://yourusername.github.io/NASA-Explorer)  
+🔗 [View Live on GitHub Pages](https://AyushPrad2907.github.io/NASA-Explorer)  
 *(Update this link after deploying)*
 
 ---
